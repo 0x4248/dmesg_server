@@ -1,6 +1,6 @@
 # dmesg server
 
-A web server that displays the output of `dmesg` in a browser.
+A web server for viewing dmesg output
 
 This is useful for sysadmins who want to monitor the kernel log remotely or want to see clearly where errors and messages are in the log.
 
