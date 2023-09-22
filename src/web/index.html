@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.msg{
+    font-family: monospace;
+}
+
+.log-level-7 {
+    background-color: lightblue;
+}
+
+.log-level-6 {
+    background-color: lightgreen;
+}
+
+.log-level-5 {
+    background-color: lightyellow;
+}
+
+.log-level-4 {
+    background-color: yellow;
+}
+
+.log-level-3 {
+    background-color: orange;
+}
+
+.log-level-2 {
+    background-color: red;
+    color : white;
+}
+
+.log-level-1 {
+    background-color: darkred;
+    color : white;
+}
+
+.log-level-0 {
+    background-color: black;
+    color: white;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Dmesg Server</h1>
+        <p>This page will update every 5 seconds</p>
+        <button onclick="window.scrollTo(0,document.body.scrollHeight);">Jump to bottom</button>
+        <hr>
+        <div id="main">
+
+        </div>
+        <hr>
+        <p>End of log messages.</p>
+        <p>This project is <a href="https://www.github.com/lewisevans2007/dmesg_server">open source</a>.</p>
+        <script src="/main.js" async defer></script>
+    </body>
+</html>
