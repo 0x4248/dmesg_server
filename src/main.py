@@ -10,7 +10,8 @@ from flask import Flask, render_template, request, redirect, url_for, send_from_
 app = Flask(__name__)
 
 if os.geteuid() != 0:
-    exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'. Exiting.")
+    print("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'. Exiting.")
+    exit(1)
 
 @app.route('/')
 def index():
