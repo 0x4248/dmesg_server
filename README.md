@@ -22,6 +22,11 @@ To run the server, run the following command:
 sudo python src/main.py
 ```
 
+Or if you want to run the server via a shell script
+```bash
+sudo sh start_server.sh
+```
+
 You will need to be root to run the server as it needs to access the kernel log.
 
 ## Licence
