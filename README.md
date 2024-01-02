@@ -31,4 +31,4 @@ You will need to be root to run the server as it needs to access the kernel log.
 
 ## Licence
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENCE](LICENCE) file for details.
+This project is licenced under the GNU General Public License v3.0 - see the [LICENCE](LICENCE) file for details.
