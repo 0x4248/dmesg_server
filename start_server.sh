@@ -1,9 +1,9 @@
 #!/bin/sh
 # Dmesg server
 # A web server for viewing dmesg output.
-# Github: https://www.github.com/lewisevans2007/dmesg_server
+# Github: https://www.github.com/0x4248/dmesg_server
 # License: GNU General Public License v3.0
-# By: Lewis Evans
+# By: 0x4248
 
 
 PYTHON=/usr/bin/python3
